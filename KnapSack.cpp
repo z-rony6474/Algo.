@@ -7,7 +7,7 @@ void knapsack()
 {
 	ll profit[5]={0,1,2,5,6},wt[5]={0,2,3,4,5};
 	ll m=8,n=4;
-	ll knapsack[5][9];
+	vector<vector<int>> knapsack(1001,vector<int>(100001,0));
 	for(ll i=0;i<n+1;i++)
 	{
 		for(ll j=0;j<m+1;j++)
