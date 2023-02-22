@@ -35,7 +35,6 @@ void knapsack()
 		else
 		{
 			cout<<i<<" 1\n";
-			i--;
 			j=j-wt[i];i--;
 		}
 	}
